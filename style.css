@@ -1,0 +1,69 @@
+/*
+style.css
+---------
+ 
+Par David Quéruel
+*/
+ 
+p,em
+{
+    color: blue; /* Les paragraphes seront en bleu et mot que je veut */
+}
+
+#logo
+{
+    width: 150px;
+    height: 150px;      /* Propriete de mon logo dans une div unique a ma page */
+    margin-left: 550px;
+    margin-right: auto;
+}
+
+.salutations
+{
+    color: rgb(0, 255, 85);
+}
+p
+{
+    font-size: 14px; /* Paragraphes de 14 pixels */
+}
+h1
+{
+    font-size: 35px; /* Titres de 40 pixels */
+}
+p
+{
+    font-family: "Arial Black",Impact, Arial, Verdana, sans-serif;
+}
+h1
+{
+    text-align: center;
+}
+
+p
+{
+    text-align: center;
+}
+
+.imageflottante
+{
+    float: left;
+    width: 350px;
+    height: 350px;
+    margin-left: 450px;
+    margin-right: auto;
+}
+.dessous
+{
+    clear: both;
+}
+/* On travaille sur la balise body, donc sur TOUTE la page */
+body
+{
+    background-color: black; /* Le fond de la page sera noir */
+    color: white; /* Le texte de la page sera blanc */
+    background-image: url("images/fond.jpg"); 
+    background-repeat: no-repeat; /* Le fond ne sera pas répété */
+    background-attachment: repeat-x; /* Le fond restera fixe */
+    background-position: top right; /* Le fond sera placé en haut à droite */
+    
+}
